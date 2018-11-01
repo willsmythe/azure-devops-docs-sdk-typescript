@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.Folder
+    name: Folder
+    fullName: Folder
+    children:
+      - azure-devops-extension-api.Folder.createdBy
+      - azure-devops-extension-api.Folder.createdOn
+      - azure-devops-extension-api.Folder.description
+      - azure-devops-extension-api.Folder.lastChangedBy
+      - azure-devops-extension-api.Folder.lastChangedDate
+      - azure-devops-extension-api.Folder.path
+      - azure-devops-extension-api.Folder.project
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a folder that contains build definitions.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Folder.createdBy
+    name: createdBy
+    fullName: createdBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The process or person who created the folder.
+    syntax:
+      content: 'createdBy: IdentityRef'
+      return:
+        type:
+          - IdentityRef
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Folder.createdOn
+    name: createdOn
+    fullName: createdOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The date the folder was created.
+    syntax:
+      content: 'createdOn: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Folder.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The description.
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Folder.lastChangedBy
+    name: lastChangedBy
+    fullName: lastChangedBy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The process or person that last changed the folder.
+    syntax:
+      content: 'lastChangedBy: IdentityRef'
+      return:
+        type:
+          - IdentityRef
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Folder.lastChangedDate
+    name: lastChangedDate
+    fullName: lastChangedDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The date the folder was last changed.
+    syntax:
+      content: 'lastChangedDate: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Folder.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The full path.
+    syntax:
+      content: 'path: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Folder.project
+    name: project
+    fullName: project
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The project.
+    syntax:
+      content: 'project: TeamProjectReference'
+      return:
+        type:
+          - TeamProjectReference
+    package: azure-devops-extension-api

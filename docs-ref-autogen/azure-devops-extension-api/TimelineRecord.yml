@@ -1,0 +1,380 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.TimelineRecord
+    name: TimelineRecord
+    fullName: TimelineRecord
+    children:
+      - azure-devops-extension-api.TimelineRecord.changeId
+      - azure-devops-extension-api.TimelineRecord.currentOperation
+      - azure-devops-extension-api.TimelineRecord.details
+      - azure-devops-extension-api.TimelineRecord.errorCount
+      - azure-devops-extension-api.TimelineRecord.finishTime
+      - azure-devops-extension-api.TimelineRecord.id
+      - azure-devops-extension-api.TimelineRecord.issues
+      - azure-devops-extension-api.TimelineRecord.lastModified
+      - azure-devops-extension-api.TimelineRecord.log
+      - azure-devops-extension-api.TimelineRecord.name
+      - azure-devops-extension-api.TimelineRecord.order
+      - azure-devops-extension-api.TimelineRecord.parentId
+      - azure-devops-extension-api.TimelineRecord.percentComplete
+      - azure-devops-extension-api.TimelineRecord.result
+      - azure-devops-extension-api.TimelineRecord.resultCode
+      - azure-devops-extension-api.TimelineRecord.startTime
+      - azure-devops-extension-api.TimelineRecord.state
+      - azure-devops-extension-api.TimelineRecord.task
+      - azure-devops-extension-api.TimelineRecord.type
+      - azure-devops-extension-api.TimelineRecord.url
+      - azure-devops-extension-api.TimelineRecord.warningCount
+      - azure-devops-extension-api.TimelineRecord.workerName
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents an entry in a build's timeline.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.changeId
+    name: changeId
+    fullName: changeId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The change ID.
+    syntax:
+      content: 'changeId: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.currentOperation
+    name: currentOperation
+    fullName: currentOperation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A string that indicates the current operation.
+    syntax:
+      content: 'currentOperation: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.details
+    name: details
+    fullName: details
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A reference to a sub-timeline.
+    syntax:
+      content: 'details: TimelineReference'
+      return:
+        type:
+          - azure-devops-extension-api.TimelineReference
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.errorCount
+    name: errorCount
+    fullName: errorCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number of errors produced by this operation.
+    syntax:
+      content: 'errorCount: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.finishTime
+    name: finishTime
+    fullName: finishTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The finish time.
+    syntax:
+      content: 'finishTime: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ID of the record.
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.issues
+    name: issues
+    fullName: issues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'issues: Issue[]'
+      return:
+        type:
+          - 'azure-devops-extension-api.Issue[]'
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.lastModified
+    name: lastModified
+    fullName: lastModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The time the record was last modified.
+    syntax:
+      content: 'lastModified: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.log
+    name: log
+    fullName: log
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A reference to the log produced by this operation.
+    syntax:
+      content: 'log: BuildLogReference'
+      return:
+        type:
+          - azure-devops-extension-api.BuildLogReference
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.order
+    name: order
+    fullName: order
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An ordinal value relative to other records.
+    syntax:
+      content: 'order: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.parentId
+    name: parentId
+    fullName: parentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ID of the record's parent.
+    syntax:
+      content: 'parentId: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.percentComplete
+    name: percentComplete
+    fullName: percentComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current completion percentage.
+    syntax:
+      content: 'percentComplete: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.result
+    name: result
+    fullName: result
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The result.
+    syntax:
+      content: 'result: TaskResult'
+      return:
+        type:
+          - azure-devops-extension-api.TaskResult
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.resultCode
+    name: resultCode
+    fullName: resultCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The result code.
+    syntax:
+      content: 'resultCode: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.startTime
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start time.
+    syntax:
+      content: 'startTime: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.state
+    name: state
+    fullName: state
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The state of the record.
+    syntax:
+      content: 'state: TimelineRecordState'
+      return:
+        type:
+          - azure-devops-extension-api.TimelineRecordState
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.task
+    name: task
+    fullName: task
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A reference to the task represented by this timeline record.
+    syntax:
+      content: 'task: TaskReference'
+      return:
+        type:
+          - azure-devops-extension-api.TaskReference
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type of the record.
+    syntax:
+      content: 'type: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The REST URL of the timeline record.
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.warningCount
+    name: warningCount
+    fullName: warningCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number of warnings produced by this operation.
+    syntax:
+      content: 'warningCount: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineRecord.workerName
+    name: workerName
+    fullName: workerName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the agent running the operation.
+    syntax:
+      content: 'workerName: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+references:
+  - uid: azure-devops-extension-api.TimelineReference
+    name: TimelineReference
+    spec.typeScript:
+      - name: TimelineReference
+        fullName: TimelineReference
+        uid: azure-devops-extension-api.TimelineReference
+  - uid: 'azure-devops-extension-api.Issue[]'
+    name: 'Issue[]'
+    spec.typeScript:
+      - name: Issue
+        fullName: Issue
+        uid: azure-devops-extension-api.Issue
+      - name: '[]'
+        fullName: '[]'
+  - uid: azure-devops-extension-api.BuildLogReference
+    name: BuildLogReference
+    spec.typeScript:
+      - name: BuildLogReference
+        fullName: BuildLogReference
+        uid: azure-devops-extension-api.BuildLogReference
+  - uid: azure-devops-extension-api.TaskResult
+    name: TaskResult
+    spec.typeScript:
+      - name: TaskResult
+        fullName: TaskResult
+        uid: azure-devops-extension-api.TaskResult
+  - uid: azure-devops-extension-api.TimelineRecordState
+    name: TimelineRecordState
+    spec.typeScript:
+      - name: TimelineRecordState
+        fullName: TimelineRecordState
+        uid: azure-devops-extension-api.TimelineRecordState
+  - uid: azure-devops-extension-api.TaskReference
+    name: TaskReference
+    spec.typeScript:
+      - name: TaskReference
+        fullName: TaskReference
+        uid: azure-devops-extension-api.TaskReference

@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.RetentionPolicy
+    name: RetentionPolicy
+    fullName: RetentionPolicy
+    children:
+      - azure-devops-extension-api.RetentionPolicy.artifacts
+      - azure-devops-extension-api.RetentionPolicy.artifactTypesToDelete
+      - azure-devops-extension-api.RetentionPolicy.branches
+      - azure-devops-extension-api.RetentionPolicy.daysToKeep
+      - azure-devops-extension-api.RetentionPolicy.deleteBuildRecord
+      - azure-devops-extension-api.RetentionPolicy.deleteTestResults
+      - azure-devops-extension-api.RetentionPolicy.minimumToKeep
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a retention policy for a build definition.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.RetentionPolicy.artifacts
+    name: artifacts
+    fullName: artifacts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'artifacts: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.RetentionPolicy.artifactTypesToDelete
+    name: artifactTypesToDelete
+    fullName: artifactTypesToDelete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'artifactTypesToDelete: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.RetentionPolicy.branches
+    name: branches
+    fullName: branches
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'branches: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.RetentionPolicy.daysToKeep
+    name: daysToKeep
+    fullName: daysToKeep
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The number of days to keep builds.
+    syntax:
+      content: 'daysToKeep: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.RetentionPolicy.deleteBuildRecord
+    name: deleteBuildRecord
+    fullName: deleteBuildRecord
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether the build record itself should be deleted.
+    syntax:
+      content: 'deleteBuildRecord: boolean'
+      return:
+        type:
+          - boolean
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.RetentionPolicy.deleteTestResults
+    name: deleteTestResults
+    fullName: deleteTestResults
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether to delete test results associated with the build.
+    syntax:
+      content: 'deleteTestResults: boolean'
+      return:
+        type:
+          - boolean
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.RetentionPolicy.minimumToKeep
+    name: minimumToKeep
+    fullName: minimumToKeep
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The minimum number of builds to keep.
+    syntax:
+      content: 'minimumToKeep: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api

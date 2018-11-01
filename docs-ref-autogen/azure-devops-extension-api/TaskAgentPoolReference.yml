@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.TaskAgentPoolReference
+    name: TaskAgentPoolReference
+    fullName: TaskAgentPoolReference
+    children:
+      - azure-devops-extension-api.TaskAgentPoolReference.id
+      - azure-devops-extension-api.TaskAgentPoolReference.isHosted
+      - azure-devops-extension-api.TaskAgentPoolReference.name
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a reference to an agent pool.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TaskAgentPoolReference.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The pool ID.
+    syntax:
+      content: 'id: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TaskAgentPoolReference.isHosted
+    name: isHosted
+    fullName: isHosted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A value indicating whether or not this pool is managed by the service.
+    syntax:
+      content: 'isHosted: boolean'
+      return:
+        type:
+          - boolean
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TaskAgentPoolReference.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The pool name.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api

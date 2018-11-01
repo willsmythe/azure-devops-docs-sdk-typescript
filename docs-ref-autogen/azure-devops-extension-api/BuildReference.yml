@@ -1,0 +1,159 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.BuildReference
+    name: BuildReference
+    fullName: BuildReference
+    children:
+      - azure-devops-extension-api.BuildReference.buildNumber
+      - azure-devops-extension-api.BuildReference.deleted
+      - azure-devops-extension-api.BuildReference.finishTime
+      - azure-devops-extension-api.BuildReference.id
+      - azure-devops-extension-api.BuildReference.queueTime
+      - azure-devops-extension-api.BuildReference.requestedFor
+      - azure-devops-extension-api.BuildReference.result
+      - azure-devops-extension-api.BuildReference.startTime
+      - azure-devops-extension-api.BuildReference.status
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a reference to a build.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.buildNumber
+    name: buildNumber
+    fullName: buildNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The build number.
+    syntax:
+      content: 'buildNumber: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.deleted
+    name: deleted
+    fullName: deleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether the build has been deleted.
+    syntax:
+      content: 'deleted: boolean'
+      return:
+        type:
+          - boolean
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.finishTime
+    name: finishTime
+    fullName: finishTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The time that the build was completed.
+    syntax:
+      content: 'finishTime: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ID of the build.
+    syntax:
+      content: 'id: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.queueTime
+    name: queueTime
+    fullName: queueTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The time that the build was queued.
+    syntax:
+      content: 'queueTime: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.requestedFor
+    name: requestedFor
+    fullName: requestedFor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The identity on whose behalf the build was queued.
+    syntax:
+      content: 'requestedFor: IdentityRef'
+      return:
+        type:
+          - IdentityRef
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.result
+    name: result
+    fullName: result
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The build result.
+    syntax:
+      content: 'result: BuildResult'
+      return:
+        type:
+          - azure-devops-extension-api.BuildResult
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.startTime
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The time that the build was started.
+    syntax:
+      content: 'startTime: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.BuildReference.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The build status.
+    syntax:
+      content: 'status: BuildStatus'
+      return:
+        type:
+          - azure-devops-extension-api.BuildStatus
+    package: azure-devops-extension-api
+references:
+  - uid: azure-devops-extension-api.BuildResult
+    name: BuildResult
+    spec.typeScript:
+      - name: BuildResult
+        fullName: BuildResult
+        uid: azure-devops-extension-api.BuildResult
+  - uid: azure-devops-extension-api.BuildStatus
+    name: BuildStatus
+    spec.typeScript:
+      - name: BuildStatus
+        fullName: BuildStatus
+        uid: azure-devops-extension-api.BuildStatus

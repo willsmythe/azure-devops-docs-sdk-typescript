@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.VariableGroup
+    name: VariableGroup
+    fullName: VariableGroup
+    children:
+      - azure-devops-extension-api.VariableGroup.description
+      - azure-devops-extension-api.VariableGroup.name
+      - azure-devops-extension-api.VariableGroup.type
+      - azure-devops-extension-api.VariableGroup.variables
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a variable group.
+    extends:
+      name: azure-devops-extension-api.VariableGroupReference
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.VariableGroup.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The description.
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.VariableGroup.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the variable group.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.VariableGroup.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type of the variable group.
+    syntax:
+      content: 'type: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.VariableGroup.variables
+    name: variables
+    fullName: variables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'variables: [key: string]: BuildDefinitionVariable'
+      return:
+        type:
+          - '[key: string]: azure-devops-extension-api.BuildDefinitionVariable'
+    package: azure-devops-extension-api
+references:
+  - uid: azure-devops-extension-api.VariableGroupReference
+    name: VariableGroupReference
+    spec.typeScript:
+      - name: VariableGroupReference
+        fullName: VariableGroupReference
+        uid: azure-devops-extension-api.VariableGroupReference
+  - uid: '[key: string]: azure-devops-extension-api.BuildDefinitionVariable'
+    name: BuildDefinitionVariable
+    spec.typeScript:
+      - name: '[key: string]: '
+        fullName: '[key: string]: '
+      - name: BuildDefinitionVariable
+        fullName: BuildDefinitionVariable
+        uid: azure-devops-extension-api.BuildDefinitionVariable

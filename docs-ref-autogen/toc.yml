@@ -1,18 +1,573 @@
-- uid: azure-devops-extension-sdk
-  name: azure-devops-extension-sdk
+- name: azure-devops-extension-api
+  uid: azure-devops-extension-api
   items:
-    - uid: azure-devops-extension-sdk.HostType
-      name: HostType
-      items: []
-    - uid: azure-devops-extension-sdk.IExtensionContext
-      name: IExtensionContext
-      items: []
-    - uid: azure-devops-extension-sdk.IExtensionInitOptions
-      name: IExtensionInitOptions
-      items: []
-    - uid: azure-devops-extension-sdk.IHostContext
-      name: IHostContext
-      items: []
-    - uid: azure-devops-extension-sdk.IUserContext
-      name: IUserContext
-      items: []
+    - uid: azure-devops-extension-api
+      name: azure-devops-extension-api
+      items:
+        - uid: azure-devops-extension-api.CommonServiceIds
+          name: CommonServiceIds
+          items: []
+        - uid: azure-devops-extension-api.DayOfWeek
+          name: DayOfWeek
+          items: []
+        - uid: azure-devops-extension-api.ExtensionDataCollection
+          name: ExtensionDataCollection
+          items: []
+        - uid: azure-devops-extension-api.IAuthorizationTokenProvider
+          name: IAuthorizationTokenProvider
+          items: []
+        - uid: azure-devops-extension-api.IDialogOptions
+          name: IDialogOptions
+          items: []
+        - uid: azure-devops-extension-api.IDocumentOptions
+          name: IDocumentOptions
+          items: []
+        - uid: azure-devops-extension-api.IExtensionDataManager
+          name: IExtensionDataManager
+          items: []
+        - uid: azure-devops-extension-api.IExtensionDataService
+          name: IExtensionDataService
+          items: []
+        - uid: azure-devops-extension-api.IGlobalMessageBanner
+          name: IGlobalMessageBanner
+          items: []
+        - uid: azure-devops-extension-api.IGlobalMessageLink
+          name: IGlobalMessageLink
+          items: []
+        - uid: azure-devops-extension-api.IGlobalMessagesService
+          name: IGlobalMessagesService
+          items: []
+        - uid: azure-devops-extension-api.IHostDialogService
+          name: IHostDialogService
+          items: []
+        - uid: azure-devops-extension-api.IHostNavigationService
+          name: IHostNavigationService
+          items: []
+        - uid: azure-devops-extension-api.IHostPanelService
+          name: IHostPanelService
+          items: []
+        - uid: azure-devops-extension-api.ILocationService
+          name: ILocationService
+          items: []
+        - uid: azure-devops-extension-api.IMessageDialogOptions
+          name: IMessageDialogOptions
+          items: []
+        - uid: azure-devops-extension-api.IPanelOptions
+          name: IPanelOptions
+          items: []
+        - uid: azure-devops-extension-api.IParsedRoute
+          name: IParsedRoute
+          items: []
+        - uid: azure-devops-extension-api.IParsedRouteSegment
+          name: IParsedRouteSegment
+          items: []
+        - uid: azure-devops-extension-api.IPostRequestEvent
+          name: IPostRequestEvent
+          items: []
+        - uid: azure-devops-extension-api.IPreRequestEvent
+          name: IPreRequestEvent
+          items: []
+        - uid: azure-devops-extension-api.IProjectInfo
+          name: IProjectInfo
+          items: []
+        - uid: azure-devops-extension-api.IProjectPageService
+          name: IProjectPageService
+          items: []
+        - uid: azure-devops-extension-api.IQueryParameter
+          name: IQueryParameter
+          items: []
+        - uid: azure-devops-extension-api.IRouteMatchResult
+          name: IRouteMatchResult
+          items: []
+        - uid: azure-devops-extension-api.IUriParseOptions
+          name: IUriParseOptions
+          items: []
+        - uid: azure-devops-extension-api.IVssRequestOptions
+          name: IVssRequestOptions
+          items: []
+        - uid: azure-devops-extension-api.IVssRestClientOptions
+          name: IVssRestClientOptions
+          items: []
+        - uid: azure-devops-extension-api.MessageBannerLevel
+          name: MessageBannerLevel
+          items: []
+        - uid: azure-devops-extension-api.PanelSize
+          name: PanelSize
+          items: []
+        - uid: azure-devops-extension-api.RestClientBase
+          name: RestClientBase
+          items: []
+        - uid: azure-devops-extension-api.RestClientFactory
+          name: RestClientFactory
+          items: []
+        - uid: azure-devops-extension-api.RestClientRequestParams
+          name: RestClientRequestParams
+          items: []
+        - uid: azure-devops-extension-api.SqlDbType
+          name: SqlDbType
+          items: []
+        - uid: azure-devops-extension-api.TeamFoundationHostType
+          name: TeamFoundationHostType
+          items: []
+        - uid: azure-devops-extension-api.Uri
+          name: Uri
+          items: []
+        - uid: azure-devops-extension-api.VssServerError
+          name: VssServerError
+          items: []
+- name: azure-devops-extension-api
+  uid: azure-devops-extension-api
+  items:
+    - uid: azure-devops-extension-api
+      name: azure-devops-extension-api
+      items:
+        - uid: azure-devops-extension-api.AgentPoolQueue
+          name: AgentPoolQueue
+          items: []
+        - uid: azure-devops-extension-api.AgentPoolQueueReference
+          name: AgentPoolQueueReference
+          items: []
+        - uid: azure-devops-extension-api.AgentPoolQueueTarget
+          name: AgentPoolQueueTarget
+          items: []
+        - uid: azure-devops-extension-api.AgentStatus
+          name: AgentStatus
+          items: []
+        - uid: azure-devops-extension-api.AgentTargetExecutionOptions
+          name: AgentTargetExecutionOptions
+          items: []
+        - uid: azure-devops-extension-api.ArtifactResource
+          name: ArtifactResource
+          items: []
+        - uid: azure-devops-extension-api.Attachment
+          name: Attachment
+          items: []
+        - uid: azure-devops-extension-api.AuditAction
+          name: AuditAction
+          items: []
+        - uid: azure-devops-extension-api.Build
+          name: Build
+          items: []
+        - uid: azure-devops-extension-api.BuildAgent
+          name: BuildAgent
+          items: []
+        - uid: azure-devops-extension-api.BuildAgentReference
+          name: BuildAgentReference
+          items: []
+        - uid: azure-devops-extension-api.BuildArtifact
+          name: BuildArtifact
+          items: []
+        - uid: azure-devops-extension-api.BuildAuthorizationScope
+          name: BuildAuthorizationScope
+          items: []
+        - uid: azure-devops-extension-api.BuildBadge
+          name: BuildBadge
+          items: []
+        - uid: azure-devops-extension-api.BuildCompletedEvent
+          name: BuildCompletedEvent
+          items: []
+        - uid: azure-devops-extension-api.BuildCompletionTrigger
+          name: BuildCompletionTrigger
+          items: []
+        - uid: azure-devops-extension-api.BuildController
+          name: BuildController
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinition
+          name: BuildDefinition
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinition3_2
+          name: BuildDefinition3_2
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionReference
+          name: BuildDefinitionReference
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionReference3_2
+          name: BuildDefinitionReference3_2
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionRevision
+          name: BuildDefinitionRevision
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionSourceProvider
+          name: BuildDefinitionSourceProvider
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionStep
+          name: BuildDefinitionStep
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionTemplate
+          name: BuildDefinitionTemplate
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionTemplate3_2
+          name: BuildDefinitionTemplate3_2
+          items: []
+        - uid: azure-devops-extension-api.BuildDefinitionVariable
+          name: BuildDefinitionVariable
+          items: []
+        - uid: azure-devops-extension-api.BuildDeletedEvent
+          name: BuildDeletedEvent
+          items: []
+        - uid: azure-devops-extension-api.BuildDeployment
+          name: BuildDeployment
+          items: []
+        - uid: azure-devops-extension-api.BuildEvent
+          name: BuildEvent
+          items: []
+        - uid: azure-devops-extension-api.BuildLog
+          name: BuildLog
+          items: []
+        - uid: azure-devops-extension-api.BuildLogReference
+          name: BuildLogReference
+          items: []
+        - uid: azure-devops-extension-api.BuildMetric
+          name: BuildMetric
+          items: []
+        - uid: azure-devops-extension-api.BuildOption
+          name: BuildOption
+          items: []
+        - uid: azure-devops-extension-api.BuildOptionDefinition
+          name: BuildOptionDefinition
+          items: []
+        - uid: azure-devops-extension-api.BuildOptionDefinitionReference
+          name: BuildOptionDefinitionReference
+          items: []
+        - uid: azure-devops-extension-api.BuildOptionGroupDefinition
+          name: BuildOptionGroupDefinition
+          items: []
+        - uid: azure-devops-extension-api.BuildOptionInputDefinition
+          name: BuildOptionInputDefinition
+          items: []
+        - uid: azure-devops-extension-api.BuildOptionInputType
+          name: BuildOptionInputType
+          items: []
+        - uid: azure-devops-extension-api.BuildPhaseStatus
+          name: BuildPhaseStatus
+          items: []
+        - uid: azure-devops-extension-api.BuildProcess
+          name: BuildProcess
+          items: []
+        - uid: azure-devops-extension-api.BuildProcessResources
+          name: BuildProcessResources
+          items: []
+        - uid: azure-devops-extension-api.BuildProcessTemplate
+          name: BuildProcessTemplate
+          items: []
+        - uid: azure-devops-extension-api.BuildQueryOrder
+          name: BuildQueryOrder
+          items: []
+        - uid: azure-devops-extension-api.BuildReason
+          name: BuildReason
+          items: []
+        - uid: azure-devops-extension-api.BuildReference
+          name: BuildReference
+          items: []
+        - uid: azure-devops-extension-api.BuildReportMetadata
+          name: BuildReportMetadata
+          items: []
+        - uid: azure-devops-extension-api.BuildRepository
+          name: BuildRepository
+          items: []
+        - uid: azure-devops-extension-api.BuildRequestValidationResult
+          name: BuildRequestValidationResult
+          items: []
+        - uid: azure-devops-extension-api.BuildResourceUsage
+          name: BuildResourceUsage
+          items: []
+        - uid: azure-devops-extension-api.BuildResult
+          name: BuildResult
+          items: []
+        - uid: azure-devops-extension-api.BuildsDeletedEvent
+          name: BuildsDeletedEvent
+          items: []
+        - uid: azure-devops-extension-api.BuildsDeletedEvent1
+          name: BuildsDeletedEvent1
+          items: []
+        - uid: azure-devops-extension-api.BuildServer
+          name: BuildServer
+          items: []
+        - uid: azure-devops-extension-api.BuildSettings
+          name: BuildSettings
+          items: []
+        - uid: azure-devops-extension-api.BuildStatus
+          name: BuildStatus
+          items: []
+        - uid: azure-devops-extension-api.BuildSummary
+          name: BuildSummary
+          items: []
+        - uid: azure-devops-extension-api.BuildTagsAddedEvent
+          name: BuildTagsAddedEvent
+          items: []
+        - uid: azure-devops-extension-api.BuildTrigger
+          name: BuildTrigger
+          items: []
+        - uid: azure-devops-extension-api.BuildUpdatedEvent
+          name: BuildUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.BuildWorkspace
+          name: BuildWorkspace
+          items: []
+        - uid: azure-devops-extension-api.Change
+          name: Change
+          items: []
+        - uid: azure-devops-extension-api.ConsoleLogEvent
+          name: ConsoleLogEvent
+          items: []
+        - uid: azure-devops-extension-api.ContinuousDeploymentDefinition
+          name: ContinuousDeploymentDefinition
+          items: []
+        - uid: azure-devops-extension-api.ContinuousIntegrationTrigger
+          name: ContinuousIntegrationTrigger
+          items: []
+        - uid: azure-devops-extension-api.ControllerStatus
+          name: ControllerStatus
+          items: []
+        - uid: azure-devops-extension-api.DefinitionQuality
+          name: DefinitionQuality
+          items: []
+        - uid: azure-devops-extension-api.DefinitionQueryOrder
+          name: DefinitionQueryOrder
+          items: []
+        - uid: azure-devops-extension-api.DefinitionQueueStatus
+          name: DefinitionQueueStatus
+          items: []
+        - uid: azure-devops-extension-api.DefinitionReference
+          name: DefinitionReference
+          items: []
+        - uid: azure-devops-extension-api.DefinitionResourceReference
+          name: DefinitionResourceReference
+          items: []
+        - uid: azure-devops-extension-api.DefinitionTriggerType
+          name: DefinitionTriggerType
+          items: []
+        - uid: azure-devops-extension-api.DefinitionType
+          name: DefinitionType
+          items: []
+        - uid: azure-devops-extension-api.DeleteOptions
+          name: DeleteOptions
+          items: []
+        - uid: azure-devops-extension-api.Demand
+          name: Demand
+          items: []
+        - uid: azure-devops-extension-api.Dependency
+          name: Dependency
+          items: []
+        - uid: azure-devops-extension-api.Deployment
+          name: Deployment
+          items: []
+        - uid: azure-devops-extension-api.DeploymentBuild
+          name: DeploymentBuild
+          items: []
+        - uid: azure-devops-extension-api.DeploymentDeploy
+          name: DeploymentDeploy
+          items: []
+        - uid: azure-devops-extension-api.DeploymentTest
+          name: DeploymentTest
+          items: []
+        - uid: azure-devops-extension-api.DesignerProcess
+          name: DesignerProcess
+          items: []
+        - uid: azure-devops-extension-api.DockerProcess
+          name: DockerProcess
+          items: []
+        - uid: azure-devops-extension-api.Folder
+          name: Folder
+          items: []
+        - uid: azure-devops-extension-api.FolderQueryOrder
+          name: FolderQueryOrder
+          items: []
+        - uid: azure-devops-extension-api.Forks
+          name: Forks
+          items: []
+        - uid: azure-devops-extension-api.GatedCheckInTrigger
+          name: GatedCheckInTrigger
+          items: []
+        - uid: azure-devops-extension-api.GetOption
+          name: GetOption
+          items: []
+        - uid: azure-devops-extension-api.InformationNode
+          name: InformationNode
+          items: []
+        - uid: azure-devops-extension-api.Issue
+          name: Issue
+          items: []
+        - uid: azure-devops-extension-api.IssueType
+          name: IssueType
+          items: []
+        - uid: azure-devops-extension-api.MappingDetails
+          name: MappingDetails
+          items: []
+        - uid: azure-devops-extension-api.MultipleAgentExecutionOptions
+          name: MultipleAgentExecutionOptions
+          items: []
+        - uid: azure-devops-extension-api.Phase
+          name: Phase
+          items: []
+        - uid: azure-devops-extension-api.PhaseTarget
+          name: PhaseTarget
+          items: []
+        - uid: azure-devops-extension-api.ProcessTemplateType
+          name: ProcessTemplateType
+          items: []
+        - uid: azure-devops-extension-api.PullRequest
+          name: PullRequest
+          items: []
+        - uid: azure-devops-extension-api.PullRequestTrigger
+          name: PullRequestTrigger
+          items: []
+        - uid: azure-devops-extension-api.QueryDeletedOption
+          name: QueryDeletedOption
+          items: []
+        - uid: azure-devops-extension-api.QueueOptions
+          name: QueueOptions
+          items: []
+        - uid: azure-devops-extension-api.QueuePriority
+          name: QueuePriority
+          items: []
+        - uid: azure-devops-extension-api.RealtimeBuildEvent
+          name: RealtimeBuildEvent
+          items: []
+        - uid: azure-devops-extension-api.RepositoryCleanOptions
+          name: RepositoryCleanOptions
+          items: []
+        - uid: azure-devops-extension-api.RepositoryWebhook
+          name: RepositoryWebhook
+          items: []
+        - uid: azure-devops-extension-api.ResourceReference
+          name: ResourceReference
+          items: []
+        - uid: azure-devops-extension-api.ResultSet
+          name: ResultSet
+          items: []
+        - uid: azure-devops-extension-api.RetentionPolicy
+          name: RetentionPolicy
+          items: []
+        - uid: azure-devops-extension-api.Schedule
+          name: Schedule
+          items: []
+        - uid: azure-devops-extension-api.ScheduleDays
+          name: ScheduleDays
+          items: []
+        - uid: azure-devops-extension-api.ScheduleTrigger
+          name: ScheduleTrigger
+          items: []
+        - uid: azure-devops-extension-api.SecureFileReference
+          name: SecureFileReference
+          items: []
+        - uid: azure-devops-extension-api.ServerTarget
+          name: ServerTarget
+          items: []
+        - uid: azure-devops-extension-api.ServerTargetExecutionOptions
+          name: ServerTargetExecutionOptions
+          items: []
+        - uid: azure-devops-extension-api.ServiceEndpointReference
+          name: ServiceEndpointReference
+          items: []
+        - uid: azure-devops-extension-api.ServiceHostStatus
+          name: ServiceHostStatus
+          items: []
+        - uid: azure-devops-extension-api.SourceProviderAttributes
+          name: SourceProviderAttributes
+          items: []
+        - uid: azure-devops-extension-api.SourceProviderAvailability
+          name: SourceProviderAvailability
+          items: []
+        - uid: azure-devops-extension-api.SourceRelatedWorkItem
+          name: SourceRelatedWorkItem
+          items: []
+        - uid: azure-devops-extension-api.SourceRepositories
+          name: SourceRepositories
+          items: []
+        - uid: azure-devops-extension-api.SourceRepository
+          name: SourceRepository
+          items: []
+        - uid: azure-devops-extension-api.SourceRepositoryItem
+          name: SourceRepositoryItem
+          items: []
+        - uid: azure-devops-extension-api.SupportedTrigger
+          name: SupportedTrigger
+          items: []
+        - uid: azure-devops-extension-api.SupportLevel
+          name: SupportLevel
+          items: []
+        - uid: azure-devops-extension-api.SvnMappingDetails
+          name: SvnMappingDetails
+          items: []
+        - uid: azure-devops-extension-api.SvnWorkspace
+          name: SvnWorkspace
+          items: []
+        - uid: azure-devops-extension-api.TaskAgentPoolReference
+          name: TaskAgentPoolReference
+          items: []
+        - uid: azure-devops-extension-api.TaskDefinitionReference
+          name: TaskDefinitionReference
+          items: []
+        - uid: azure-devops-extension-api.TaskOrchestrationPlanGroupReference
+          name: TaskOrchestrationPlanGroupReference
+          items: []
+        - uid: azure-devops-extension-api.TaskOrchestrationPlanGroupsStartedEvent
+          name: TaskOrchestrationPlanGroupsStartedEvent
+          items: []
+        - uid: azure-devops-extension-api.TaskOrchestrationPlanReference
+          name: TaskOrchestrationPlanReference
+          items: []
+        - uid: azure-devops-extension-api.TaskReference
+          name: TaskReference
+          items: []
+        - uid: azure-devops-extension-api.TaskResult
+          name: TaskResult
+          items: []
+        - uid: azure-devops-extension-api.Timeline
+          name: Timeline
+          items: []
+        - uid: azure-devops-extension-api.TimelineRecord
+          name: TimelineRecord
+          items: []
+        - uid: azure-devops-extension-api.TimelineRecordState
+          name: TimelineRecordState
+          items: []
+        - uid: azure-devops-extension-api.TimelineRecordsUpdatedEvent
+          name: TimelineRecordsUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.TimelineReference
+          name: TimelineReference
+          items: []
+        - uid: azure-devops-extension-api.ValidationResult
+          name: ValidationResult
+          items: []
+        - uid: azure-devops-extension-api.VariableGroup
+          name: VariableGroup
+          items: []
+        - uid: azure-devops-extension-api.VariableGroupReference
+          name: VariableGroupReference
+          items: []
+        - uid: azure-devops-extension-api.VariableMultipliersAgentExecutionOptions
+          name: VariableMultipliersAgentExecutionOptions
+          items: []
+        - uid: azure-devops-extension-api.VariableMultipliersServerExecutionOptions
+          name: VariableMultipliersServerExecutionOptions
+          items: []
+        - uid: azure-devops-extension-api.WorkspaceMapping
+          name: WorkspaceMapping
+          items: []
+        - uid: azure-devops-extension-api.WorkspaceMappingType
+          name: WorkspaceMappingType
+          items: []
+        - uid: azure-devops-extension-api.WorkspaceTemplate
+          name: WorkspaceTemplate
+          items: []
+        - uid: azure-devops-extension-api.XamlBuildControllerReference
+          name: XamlBuildControllerReference
+          items: []
+        - uid: azure-devops-extension-api.XamlBuildDefinition
+          name: XamlBuildDefinition
+          items: []
+        - uid: azure-devops-extension-api.XamlBuildReference
+          name: XamlBuildReference
+          items: []
+        - uid: azure-devops-extension-api.XamlBuildServerReference
+          name: XamlBuildServerReference
+          items: []
+        - uid: azure-devops-extension-api.XamlDefinitionReference
+          name: XamlDefinitionReference
+          items: []
+        - uid: azure-devops-extension-api.YamlProcess
+          name: YamlProcess
+          items: []

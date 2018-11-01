@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.MappingDetails
+    name: MappingDetails
+    fullName: MappingDetails
+    children:
+      - azure-devops-extension-api.MappingDetails.localPath
+      - azure-devops-extension-api.MappingDetails.mappingType
+      - azure-devops-extension-api.MappingDetails.serverPath
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents an entry in a workspace mapping.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.MappingDetails.localPath
+    name: localPath
+    fullName: localPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The local path.
+    syntax:
+      content: 'localPath: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.MappingDetails.mappingType
+    name: mappingType
+    fullName: mappingType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The mapping type.
+    syntax:
+      content: 'mappingType: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.MappingDetails.serverPath
+    name: serverPath
+    fullName: serverPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The server path.
+    syntax:
+      content: 'serverPath: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api

@@ -1,0 +1,118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.PullRequestTrigger
+    name: PullRequestTrigger
+    fullName: PullRequestTrigger
+    children:
+      - azure-devops-extension-api.PullRequestTrigger.autoCancel
+      - azure-devops-extension-api.PullRequestTrigger.branchFilters
+      - azure-devops-extension-api.PullRequestTrigger.forks
+      - >-
+        azure-devops-extension-api.PullRequestTrigger.isCommentRequiredForPullRequest
+      - azure-devops-extension-api.PullRequestTrigger.pathFilters
+      - azure-devops-extension-api.PullRequestTrigger.settingsSourceType
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a pull request trigger.
+    extends:
+      name: azure-devops-extension-api.BuildTrigger
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.PullRequestTrigger.autoCancel
+    name: autoCancel
+    fullName: autoCancel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates if an update to a PR should delete current in-progress builds.
+    syntax:
+      content: 'autoCancel: boolean'
+      return:
+        type:
+          - boolean
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.PullRequestTrigger.branchFilters
+    name: branchFilters
+    fullName: branchFilters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'branchFilters: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.PullRequestTrigger.forks
+    name: forks
+    fullName: forks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'forks: Forks'
+      return:
+        type:
+          - azure-devops-extension-api.Forks
+    package: azure-devops-extension-api
+  - uid: >-
+      azure-devops-extension-api.PullRequestTrigger.isCommentRequiredForPullRequest
+    name: isCommentRequiredForPullRequest
+    fullName: isCommentRequiredForPullRequest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isCommentRequiredForPullRequest: boolean'
+      return:
+        type:
+          - boolean
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.PullRequestTrigger.pathFilters
+    name: pathFilters
+    fullName: pathFilters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'pathFilters: string[]'
+      return:
+        type:
+          - 'string[]'
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.PullRequestTrigger.settingsSourceType
+    name: settingsSourceType
+    fullName: settingsSourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'settingsSourceType: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+references:
+  - uid: azure-devops-extension-api.BuildTrigger
+    name: BuildTrigger
+    spec.typeScript:
+      - name: BuildTrigger
+        fullName: BuildTrigger
+        uid: azure-devops-extension-api.BuildTrigger
+  - uid: azure-devops-extension-api.Forks
+    name: Forks
+    spec.typeScript:
+      - name: Forks
+        fullName: Forks
+        uid: azure-devops-extension-api.Forks

@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.TaskOrchestrationPlanReference
+    name: TaskOrchestrationPlanReference
+    fullName: TaskOrchestrationPlanReference
+    children:
+      - >-
+        azure-devops-extension-api.TaskOrchestrationPlanReference.orchestrationType
+      - azure-devops-extension-api.TaskOrchestrationPlanReference.planId
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a reference to an orchestration plan.
+    package: azure-devops-extension-api
+  - uid: >-
+      azure-devops-extension-api.TaskOrchestrationPlanReference.orchestrationType
+    name: orchestrationType
+    fullName: orchestrationType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type of the plan.
+    syntax:
+      content: 'orchestrationType: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TaskOrchestrationPlanReference.planId
+    name: planId
+    fullName: planId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ID of the plan.
+    syntax:
+      content: 'planId: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api

@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.TimelineReference
+    name: TimelineReference
+    fullName: TimelineReference
+    children:
+      - azure-devops-extension-api.TimelineReference.changeId
+      - azure-devops-extension-api.TimelineReference.id
+      - azure-devops-extension-api.TimelineReference.url
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a reference to a timeline.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineReference.changeId
+    name: changeId
+    fullName: changeId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The change ID.
+    syntax:
+      content: 'changeId: number'
+      return:
+        type:
+          - number
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineReference.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ID of the timeline.
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.TimelineReference.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The REST URL of the timeline.
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api

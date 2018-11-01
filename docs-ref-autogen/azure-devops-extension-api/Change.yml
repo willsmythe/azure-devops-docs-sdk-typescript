@@ -1,0 +1,150 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.Change
+    name: Change
+    fullName: Change
+    children:
+      - azure-devops-extension-api.Change.author
+      - azure-devops-extension-api.Change.displayUri
+      - azure-devops-extension-api.Change.id
+      - azure-devops-extension-api.Change.location
+      - azure-devops-extension-api.Change.message
+      - azure-devops-extension-api.Change.messageTruncated
+      - azure-devops-extension-api.Change.pusher
+      - azure-devops-extension-api.Change.timestamp
+      - azure-devops-extension-api.Change.type
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a change associated with a build.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.author
+    name: author
+    fullName: author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The author of the change.
+    syntax:
+      content: 'author: IdentityRef'
+      return:
+        type:
+          - IdentityRef
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.displayUri
+    name: displayUri
+    fullName: displayUri
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The location of a user-friendly representation of the resource.
+    syntax:
+      content: 'displayUri: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The identifier for the change. For a commit, this would be the SHA1. For a
+      TFVC changeset, this would be the changeset ID.
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.location
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The location of the full representation of the resource.
+    syntax:
+      content: 'location: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The description of the change. This might be a commit message or changeset
+      description.
+    syntax:
+      content: 'message: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.messageTruncated
+    name: messageTruncated
+    fullName: messageTruncated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether the message was truncated.
+    syntax:
+      content: 'messageTruncated: boolean'
+      return:
+        type:
+          - boolean
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.pusher
+    name: pusher
+    fullName: pusher
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The person or process that pushed the change.
+    syntax:
+      content: 'pusher: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.timestamp
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The timestamp for the change.
+    syntax:
+      content: 'timestamp: Date'
+      return:
+        type:
+          - Date
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Change.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The type of change. "commit", "changeset", etc.'
+    syntax:
+      content: 'type: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api

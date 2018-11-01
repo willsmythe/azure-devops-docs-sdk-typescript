@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.Demand
+    name: Demand
+    fullName: Demand
+    children:
+      - azure-devops-extension-api.Demand.name
+      - azure-devops-extension-api.Demand.value
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents a demand used by a definition or build.
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Demand.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the capability referenced by the demand.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
+  - uid: azure-devops-extension-api.Demand.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The demanded value.
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+    package: azure-devops-extension-api
