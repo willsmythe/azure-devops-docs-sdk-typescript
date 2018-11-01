@@ -472,116 +472,946 @@
     - uid: azure-devops-extension-api
       name: azure-devops-extension-api
       items:
-        - uid: azure-devops-extension-api.CommonServiceIds
-          name: CommonServiceIds
+        - uid: azure-devops-extension-api.ConnectedServiceKind
+          name: ConnectedServiceKind
           items: []
-        - uid: azure-devops-extension-api.DayOfWeek
-          name: DayOfWeek
+        - uid: azure-devops-extension-api.CoreRestClient
+          name: CoreRestClient
           items: []
-        - uid: azure-devops-extension-api.ExtensionDataCollection
-          name: ExtensionDataCollection
+        - uid: azure-devops-extension-api.IdentityData
+          name: IdentityData
           items: []
-        - uid: azure-devops-extension-api.IAuthorizationTokenProvider
-          name: IAuthorizationTokenProvider
+        - uid: azure-devops-extension-api.Process
+          name: Process
           items: []
-        - uid: azure-devops-extension-api.IDialogOptions
-          name: IDialogOptions
+        - uid: azure-devops-extension-api.ProcessCustomizationType
+          name: ProcessCustomizationType
           items: []
-        - uid: azure-devops-extension-api.IDocumentOptions
-          name: IDocumentOptions
+        - uid: azure-devops-extension-api.ProcessReference
+          name: ProcessReference
           items: []
-        - uid: azure-devops-extension-api.IExtensionDataManager
-          name: IExtensionDataManager
+        - uid: azure-devops-extension-api.ProcessType
+          name: ProcessType
           items: []
-        - uid: azure-devops-extension-api.IExtensionDataService
-          name: IExtensionDataService
+        - uid: azure-devops-extension-api.ProjectChangeType
+          name: ProjectChangeType
           items: []
-        - uid: azure-devops-extension-api.IGlobalMessageBanner
-          name: IGlobalMessageBanner
+        - uid: azure-devops-extension-api.ProjectInfo
+          name: ProjectInfo
           items: []
-        - uid: azure-devops-extension-api.IGlobalMessageLink
-          name: IGlobalMessageLink
+        - uid: azure-devops-extension-api.ProjectMessage
+          name: ProjectMessage
           items: []
-        - uid: azure-devops-extension-api.IGlobalMessagesService
-          name: IGlobalMessagesService
+        - uid: azure-devops-extension-api.ProjectProperty
+          name: ProjectProperty
           items: []
-        - uid: azure-devops-extension-api.IHostDialogService
-          name: IHostDialogService
+        - uid: azure-devops-extension-api.ProjectVisibility
+          name: ProjectVisibility
           items: []
-        - uid: azure-devops-extension-api.IHostNavigationService
-          name: IHostNavigationService
+        - uid: azure-devops-extension-api.Proxy
+          name: Proxy
           items: []
-        - uid: azure-devops-extension-api.IHostPanelService
-          name: IHostPanelService
+        - uid: azure-devops-extension-api.ProxyAuthorization
+          name: ProxyAuthorization
           items: []
-        - uid: azure-devops-extension-api.ILocationService
-          name: ILocationService
+        - uid: azure-devops-extension-api.SourceControlTypes
+          name: SourceControlTypes
           items: []
-        - uid: azure-devops-extension-api.IMessageDialogOptions
-          name: IMessageDialogOptions
+        - uid: azure-devops-extension-api.TeamContext
+          name: TeamContext
           items: []
-        - uid: azure-devops-extension-api.IPanelOptions
-          name: IPanelOptions
+        - uid: azure-devops-extension-api.TeamProject
+          name: TeamProject
           items: []
-        - uid: azure-devops-extension-api.IParsedRoute
-          name: IParsedRoute
+        - uid: azure-devops-extension-api.TeamProjectCollection
+          name: TeamProjectCollection
           items: []
-        - uid: azure-devops-extension-api.IParsedRouteSegment
-          name: IParsedRouteSegment
+        - uid: azure-devops-extension-api.TeamProjectCollectionReference
+          name: TeamProjectCollectionReference
           items: []
-        - uid: azure-devops-extension-api.IPostRequestEvent
-          name: IPostRequestEvent
+        - uid: azure-devops-extension-api.TeamProjectReference
+          name: TeamProjectReference
           items: []
-        - uid: azure-devops-extension-api.IPreRequestEvent
-          name: IPreRequestEvent
+        - uid: azure-devops-extension-api.TemporaryDataCreatedDTO
+          name: TemporaryDataCreatedDTO
           items: []
-        - uid: azure-devops-extension-api.IProjectInfo
-          name: IProjectInfo
+        - uid: azure-devops-extension-api.TemporaryDataDTO
+          name: TemporaryDataDTO
           items: []
-        - uid: azure-devops-extension-api.IProjectPageService
-          name: IProjectPageService
+        - uid: azure-devops-extension-api.WebApiConnectedService
+          name: WebApiConnectedService
           items: []
-        - uid: azure-devops-extension-api.IQueryParameter
-          name: IQueryParameter
+        - uid: azure-devops-extension-api.WebApiConnectedServiceDetails
+          name: WebApiConnectedServiceDetails
           items: []
-        - uid: azure-devops-extension-api.IRouteMatchResult
-          name: IRouteMatchResult
+        - uid: azure-devops-extension-api.WebApiConnectedServiceRef
+          name: WebApiConnectedServiceRef
           items: []
-        - uid: azure-devops-extension-api.IUriParseOptions
-          name: IUriParseOptions
+        - uid: azure-devops-extension-api.WebApiCreateTagRequestData
+          name: WebApiCreateTagRequestData
           items: []
-        - uid: azure-devops-extension-api.IVssRequestOptions
-          name: IVssRequestOptions
+        - uid: azure-devops-extension-api.WebApiProject
+          name: WebApiProject
           items: []
-        - uid: azure-devops-extension-api.IVssRestClientOptions
-          name: IVssRestClientOptions
+        - uid: azure-devops-extension-api.WebApiProjectCollection
+          name: WebApiProjectCollection
           items: []
-        - uid: azure-devops-extension-api.MessageBannerLevel
-          name: MessageBannerLevel
+        - uid: azure-devops-extension-api.WebApiProjectCollectionRef
+          name: WebApiProjectCollectionRef
           items: []
-        - uid: azure-devops-extension-api.PanelSize
-          name: PanelSize
+        - uid: azure-devops-extension-api.WebApiTagDefinition
+          name: WebApiTagDefinition
           items: []
-        - uid: azure-devops-extension-api.RestClientBase
-          name: RestClientBase
+        - uid: azure-devops-extension-api.WebApiTeam
+          name: WebApiTeam
           items: []
-        - uid: azure-devops-extension-api.RestClientFactory
-          name: RestClientFactory
+        - uid: azure-devops-extension-api.WebApiTeamRef
+          name: WebApiTeamRef
           items: []
-        - uid: azure-devops-extension-api.RestClientRequestParams
-          name: RestClientRequestParams
+- name: azure-devops-extension-api
+  uid: azure-devops-extension-api
+  items:
+    - uid: azure-devops-extension-api
+      name: azure-devops-extension-api
+      items:
+        - uid: azure-devops-extension-api.Dashboard
+          name: Dashboard
           items: []
-        - uid: azure-devops-extension-api.SqlDbType
-          name: SqlDbType
+        - uid: azure-devops-extension-api.DashboardGroup
+          name: DashboardGroup
           items: []
-        - uid: azure-devops-extension-api.TeamFoundationHostType
-          name: TeamFoundationHostType
+        - uid: azure-devops-extension-api.DashboardGroupEntry
+          name: DashboardGroupEntry
           items: []
-        - uid: azure-devops-extension-api.Uri
-          name: Uri
+        - uid: azure-devops-extension-api.DashboardGroupEntryResponse
+          name: DashboardGroupEntryResponse
           items: []
-        - uid: azure-devops-extension-api.VssServerError
-          name: VssServerError
+        - uid: azure-devops-extension-api.DashboardResponse
+          name: DashboardResponse
+          items: []
+        - uid: azure-devops-extension-api.DashboardRestClient
+          name: DashboardRestClient
+          items: []
+        - uid: azure-devops-extension-api.DashboardScope
+          name: DashboardScope
+          items: []
+        - uid: azure-devops-extension-api.GroupMemberPermission
+          name: GroupMemberPermission
+          items: []
+        - uid: azure-devops-extension-api.LightboxOptions
+          name: LightboxOptions
+          items: []
+        - uid: azure-devops-extension-api.SemanticVersion
+          name: SemanticVersion
+          items: []
+        - uid: azure-devops-extension-api.TeamDashboardPermission
+          name: TeamDashboardPermission
+          items: []
+        - uid: azure-devops-extension-api.Widget
+          name: Widget
+          items: []
+        - uid: azure-devops-extension-api.WidgetMetadata
+          name: WidgetMetadata
+          items: []
+        - uid: azure-devops-extension-api.WidgetMetadataResponse
+          name: WidgetMetadataResponse
+          items: []
+        - uid: azure-devops-extension-api.WidgetPosition
+          name: WidgetPosition
+          items: []
+        - uid: azure-devops-extension-api.WidgetResponse
+          name: WidgetResponse
+          items: []
+        - uid: azure-devops-extension-api.WidgetScope
+          name: WidgetScope
+          items: []
+        - uid: azure-devops-extension-api.WidgetSize
+          name: WidgetSize
+          items: []
+        - uid: azure-devops-extension-api.WidgetsVersionedList
+          name: WidgetsVersionedList
+          items: []
+        - uid: azure-devops-extension-api.WidgetTypesResponse
+          name: WidgetTypesResponse
+          items: []
+- name: azure-devops-extension-api
+  uid: azure-devops-extension-api
+  items:
+    - uid: azure-devops-extension-api
+      name: azure-devops-extension-api
+      items:
+        - uid: azure-devops-extension-api.AssociatedWorkItem
+          name: AssociatedWorkItem
+          items: []
+        - uid: azure-devops-extension-api.AsyncGitOperationNotification
+          name: AsyncGitOperationNotification
+          items: []
+        - uid: >-
+            azure-devops-extension-api.AsyncRefOperationCommitLevelEventNotification
+          name: AsyncRefOperationCommitLevelEventNotification
+          items: []
+        - uid: azure-devops-extension-api.AsyncRefOperationCompletedNotification
+          name: AsyncRefOperationCompletedNotification
+          items: []
+        - uid: azure-devops-extension-api.AsyncRefOperationConflictNotification
+          name: AsyncRefOperationConflictNotification
+          items: []
+        - uid: >-
+            azure-devops-extension-api.AsyncRefOperationGeneralFailureNotification
+          name: AsyncRefOperationGeneralFailureNotification
+          items: []
+        - uid: azure-devops-extension-api.AsyncRefOperationProgressNotification
+          name: AsyncRefOperationProgressNotification
+          items: []
+        - uid: azure-devops-extension-api.AsyncRefOperationTimeoutNotification
+          name: AsyncRefOperationTimeoutNotification
+          items: []
+        - uid: azure-devops-extension-api.Attachment
+          name: Attachment
+          items: []
+        - uid: azure-devops-extension-api.AutoCompleteUpdatedEvent
+          name: AutoCompleteUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.BranchUpdatedEvent
+          name: BranchUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.Change
+          name: Change
+          items: []
+        - uid: azure-devops-extension-api.ChangeCountDictionary
+          name: ChangeCountDictionary
+          items: []
+        - uid: azure-devops-extension-api.ChangeList
+          name: ChangeList
+          items: []
+        - uid: azure-devops-extension-api.ChangeListSearchCriteria
+          name: ChangeListSearchCriteria
+          items: []
+        - uid: azure-devops-extension-api.CheckinNote
+          name: CheckinNote
+          items: []
+        - uid: azure-devops-extension-api.Comment
+          name: Comment
+          items: []
+        - uid: azure-devops-extension-api.CommentIterationContext
+          name: CommentIterationContext
+          items: []
+        - uid: azure-devops-extension-api.CommentPosition
+          name: CommentPosition
+          items: []
+        - uid: azure-devops-extension-api.CommentThread
+          name: CommentThread
+          items: []
+        - uid: azure-devops-extension-api.CommentThreadContext
+          name: CommentThreadContext
+          items: []
+        - uid: azure-devops-extension-api.CommentThreadStatus
+          name: CommentThreadStatus
+          items: []
+        - uid: azure-devops-extension-api.CommentTrackingCriteria
+          name: CommentTrackingCriteria
+          items: []
+        - uid: azure-devops-extension-api.CommentType
+          name: CommentType
+          items: []
+        - uid: azure-devops-extension-api.CompletionErrorsEvent
+          name: CompletionErrorsEvent
+          items: []
+        - uid: azure-devops-extension-api.DiscussionsUpdatedEvent
+          name: DiscussionsUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.FileContentMetadata
+          name: FileContentMetadata
+          items: []
+        - uid: azure-devops-extension-api.FileDiff
+          name: FileDiff
+          items: []
+        - uid: azure-devops-extension-api.FileDiffParams
+          name: FileDiffParams
+          items: []
+        - uid: azure-devops-extension-api.FileDiffsCriteria
+          name: FileDiffsCriteria
+          items: []
+        - uid: azure-devops-extension-api.GitAnnotatedTag
+          name: GitAnnotatedTag
+          items: []
+        - uid: azure-devops-extension-api.GitAsyncOperationStatus
+          name: GitAsyncOperationStatus
+          items: []
+        - uid: azure-devops-extension-api.GitAsyncRefOperation
+          name: GitAsyncRefOperation
+          items: []
+        - uid: azure-devops-extension-api.GitAsyncRefOperationDetail
+          name: GitAsyncRefOperationDetail
+          items: []
+        - uid: azure-devops-extension-api.GitAsyncRefOperationFailureStatus
+          name: GitAsyncRefOperationFailureStatus
+          items: []
+        - uid: azure-devops-extension-api.GitAsyncRefOperationParameters
+          name: GitAsyncRefOperationParameters
+          items: []
+        - uid: azure-devops-extension-api.GitAsyncRefOperationSource
+          name: GitAsyncRefOperationSource
+          items: []
+        - uid: azure-devops-extension-api.GitBaseVersionDescriptor
+          name: GitBaseVersionDescriptor
+          items: []
+        - uid: azure-devops-extension-api.GitBlobRef
+          name: GitBlobRef
+          items: []
+        - uid: azure-devops-extension-api.GitBranchStats
+          name: GitBranchStats
+          items: []
+        - uid: azure-devops-extension-api.GitChange
+          name: GitChange
+          items: []
+        - uid: azure-devops-extension-api.GitCherryPick
+          name: GitCherryPick
+          items: []
+        - uid: azure-devops-extension-api.GitCommit
+          name: GitCommit
+          items: []
+        - uid: azure-devops-extension-api.GitCommitChanges
+          name: GitCommitChanges
+          items: []
+        - uid: azure-devops-extension-api.GitCommitDiffs
+          name: GitCommitDiffs
+          items: []
+        - uid: azure-devops-extension-api.GitCommitRef
+          name: GitCommitRef
+          items: []
+        - uid: azure-devops-extension-api.GitCommitToCreate
+          name: GitCommitToCreate
+          items: []
+        - uid: azure-devops-extension-api.GitConflict
+          name: GitConflict
+          items: []
+        - uid: azure-devops-extension-api.GitConflictAddAdd
+          name: GitConflictAddAdd
+          items: []
+        - uid: azure-devops-extension-api.GitConflictAddRename
+          name: GitConflictAddRename
+          items: []
+        - uid: azure-devops-extension-api.GitConflictDeleteEdit
+          name: GitConflictDeleteEdit
+          items: []
+        - uid: azure-devops-extension-api.GitConflictDeleteRename
+          name: GitConflictDeleteRename
+          items: []
+        - uid: azure-devops-extension-api.GitConflictDirectoryFile
+          name: GitConflictDirectoryFile
+          items: []
+        - uid: azure-devops-extension-api.GitConflictEditDelete
+          name: GitConflictEditDelete
+          items: []
+        - uid: azure-devops-extension-api.GitConflictEditEdit
+          name: GitConflictEditEdit
+          items: []
+        - uid: azure-devops-extension-api.GitConflictFileDirectory
+          name: GitConflictFileDirectory
+          items: []
+        - uid: azure-devops-extension-api.GitConflictRename1to2
+          name: GitConflictRename1to2
+          items: []
+        - uid: azure-devops-extension-api.GitConflictRename2to1
+          name: GitConflictRename2to1
+          items: []
+        - uid: azure-devops-extension-api.GitConflictRenameAdd
+          name: GitConflictRenameAdd
+          items: []
+        - uid: azure-devops-extension-api.GitConflictRenameDelete
+          name: GitConflictRenameDelete
+          items: []
+        - uid: azure-devops-extension-api.GitConflictRenameRename
+          name: GitConflictRenameRename
+          items: []
+        - uid: azure-devops-extension-api.GitConflictType
+          name: GitConflictType
+          items: []
+        - uid: azure-devops-extension-api.GitConflictUpdateResult
+          name: GitConflictUpdateResult
+          items: []
+        - uid: azure-devops-extension-api.GitConflictUpdateStatus
+          name: GitConflictUpdateStatus
+          items: []
+        - uid: azure-devops-extension-api.GitDeletedRepository
+          name: GitDeletedRepository
+          items: []
+        - uid: azure-devops-extension-api.GitFilePathsCollection
+          name: GitFilePathsCollection
+          items: []
+        - uid: azure-devops-extension-api.GitForkOperationStatusDetail
+          name: GitForkOperationStatusDetail
+          items: []
+        - uid: azure-devops-extension-api.GitForkRef
+          name: GitForkRef
+          items: []
+        - uid: azure-devops-extension-api.GitForkSyncRequest
+          name: GitForkSyncRequest
+          items: []
+        - uid: azure-devops-extension-api.GitForkSyncRequestParameters
+          name: GitForkSyncRequestParameters
+          items: []
+        - uid: azure-devops-extension-api.GitForkTeamProjectReference
+          name: GitForkTeamProjectReference
+          items: []
+        - uid: azure-devops-extension-api.GitHistoryMode
+          name: GitHistoryMode
+          items: []
+        - uid: azure-devops-extension-api.GitImportFailedEvent
+          name: GitImportFailedEvent
+          items: []
+        - uid: azure-devops-extension-api.GitImportGitSource
+          name: GitImportGitSource
+          items: []
+        - uid: azure-devops-extension-api.GitImportRequest
+          name: GitImportRequest
+          items: []
+        - uid: azure-devops-extension-api.GitImportRequestParameters
+          name: GitImportRequestParameters
+          items: []
+        - uid: azure-devops-extension-api.GitImportStatusDetail
+          name: GitImportStatusDetail
+          items: []
+        - uid: azure-devops-extension-api.GitImportSucceededEvent
+          name: GitImportSucceededEvent
+          items: []
+        - uid: azure-devops-extension-api.GitImportTfvcSource
+          name: GitImportTfvcSource
+          items: []
+        - uid: azure-devops-extension-api.GitItem
+          name: GitItem
+          items: []
+        - uid: azure-devops-extension-api.GitItemDescriptor
+          name: GitItemDescriptor
+          items: []
+        - uid: azure-devops-extension-api.GitItemRequestData
+          name: GitItemRequestData
+          items: []
+        - uid: azure-devops-extension-api.GitLastChangeItem
+          name: GitLastChangeItem
+          items: []
+        - uid: azure-devops-extension-api.GitLastChangeTreeItems
+          name: GitLastChangeTreeItems
+          items: []
+        - uid: azure-devops-extension-api.GitMerge
+          name: GitMerge
+          items: []
+        - uid: azure-devops-extension-api.GitMergeOperationStatusDetail
+          name: GitMergeOperationStatusDetail
+          items: []
+        - uid: azure-devops-extension-api.GitMergeOriginRef
+          name: GitMergeOriginRef
+          items: []
+        - uid: azure-devops-extension-api.GitMergeParameters
+          name: GitMergeParameters
+          items: []
+        - uid: azure-devops-extension-api.GitObject
+          name: GitObject
+          items: []
+        - uid: azure-devops-extension-api.GitObjectType
+          name: GitObjectType
+          items: []
+        - uid: azure-devops-extension-api.GitPathAction
+          name: GitPathAction
+          items: []
+        - uid: azure-devops-extension-api.GitPathActions
+          name: GitPathActions
+          items: []
+        - uid: azure-devops-extension-api.GitPathToItemsCollection
+          name: GitPathToItemsCollection
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequest
+          name: GitPullRequest
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestChange
+          name: GitPullRequestChange
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestCommentThread
+          name: GitPullRequestCommentThread
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestCommentThreadContext
+          name: GitPullRequestCommentThreadContext
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestCompletionOptions
+          name: GitPullRequestCompletionOptions
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestIteration
+          name: GitPullRequestIteration
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestIterationChanges
+          name: GitPullRequestIterationChanges
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestMergeOptions
+          name: GitPullRequestMergeOptions
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestQuery
+          name: GitPullRequestQuery
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestQueryInput
+          name: GitPullRequestQueryInput
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestQueryType
+          name: GitPullRequestQueryType
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestReviewFileContentInfo
+          name: GitPullRequestReviewFileContentInfo
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestReviewFileType
+          name: GitPullRequestReviewFileType
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestSearchCriteria
+          name: GitPullRequestSearchCriteria
+          items: []
+        - uid: azure-devops-extension-api.GitPullRequestStatus
+          name: GitPullRequestStatus
+          items: []
+        - uid: azure-devops-extension-api.GitPush
+          name: GitPush
+          items: []
+        - uid: azure-devops-extension-api.GitPushEventData
+          name: GitPushEventData
+          items: []
+        - uid: azure-devops-extension-api.GitPushRef
+          name: GitPushRef
+          items: []
+        - uid: azure-devops-extension-api.GitPushSearchCriteria
+          name: GitPushSearchCriteria
+          items: []
+        - uid: azure-devops-extension-api.GitQueryBranchStatsCriteria
+          name: GitQueryBranchStatsCriteria
+          items: []
+        - uid: azure-devops-extension-api.GitQueryCommitsCriteria
+          name: GitQueryCommitsCriteria
+          items: []
+        - uid: azure-devops-extension-api.GitQueryRefsCriteria
+          name: GitQueryRefsCriteria
+          items: []
+        - uid: azure-devops-extension-api.GitRecycleBinRepositoryDetails
+          name: GitRecycleBinRepositoryDetails
+          items: []
+        - uid: azure-devops-extension-api.GitRef
+          name: GitRef
+          items: []
+        - uid: azure-devops-extension-api.GitRefFavorite
+          name: GitRefFavorite
+          items: []
+        - uid: azure-devops-extension-api.GitRefSearchType
+          name: GitRefSearchType
+          items: []
+        - uid: azure-devops-extension-api.GitRefUpdate
+          name: GitRefUpdate
+          items: []
+        - uid: azure-devops-extension-api.GitRefUpdateMode
+          name: GitRefUpdateMode
+          items: []
+        - uid: azure-devops-extension-api.GitRefUpdateResult
+          name: GitRefUpdateResult
+          items: []
+        - uid: azure-devops-extension-api.GitRefUpdateStatus
+          name: GitRefUpdateStatus
+          items: []
+        - uid: azure-devops-extension-api.GitRepository
+          name: GitRepository
+          items: []
+        - uid: azure-devops-extension-api.GitRepositoryCreateOptions
+          name: GitRepositoryCreateOptions
+          items: []
+        - uid: azure-devops-extension-api.GitRepositoryRef
+          name: GitRepositoryRef
+          items: []
+        - uid: azure-devops-extension-api.GitRepositoryStats
+          name: GitRepositoryStats
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionError
+          name: GitResolutionError
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionMergeContent
+          name: GitResolutionMergeContent
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionMergeType
+          name: GitResolutionMergeType
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionPathConflict
+          name: GitResolutionPathConflict
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionPathConflictAction
+          name: GitResolutionPathConflictAction
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionPickOneAction
+          name: GitResolutionPickOneAction
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionRename1to2
+          name: GitResolutionRename1to2
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionRename1to2Action
+          name: GitResolutionRename1to2Action
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionStatus
+          name: GitResolutionStatus
+          items: []
+        - uid: azure-devops-extension-api.GitResolutionWhichAction
+          name: GitResolutionWhichAction
+          items: []
+        - uid: azure-devops-extension-api.GitRestClient
+          name: GitRestClient
+          items: []
+        - uid: azure-devops-extension-api.GitRevert
+          name: GitRevert
+          items: []
+        - uid: azure-devops-extension-api.GitStatus
+          name: GitStatus
+          items: []
+        - uid: azure-devops-extension-api.GitStatusContext
+          name: GitStatusContext
+          items: []
+        - uid: azure-devops-extension-api.GitStatusState
+          name: GitStatusState
+          items: []
+        - uid: azure-devops-extension-api.GitSuggestion
+          name: GitSuggestion
+          items: []
+        - uid: azure-devops-extension-api.GitTargetVersionDescriptor
+          name: GitTargetVersionDescriptor
+          items: []
+        - uid: azure-devops-extension-api.GitTemplate
+          name: GitTemplate
+          items: []
+        - uid: azure-devops-extension-api.GitTreeDiff
+          name: GitTreeDiff
+          items: []
+        - uid: azure-devops-extension-api.GitTreeDiffEntry
+          name: GitTreeDiffEntry
+          items: []
+        - uid: azure-devops-extension-api.GitTreeDiffResponse
+          name: GitTreeDiffResponse
+          items: []
+        - uid: azure-devops-extension-api.GitTreeEntryRef
+          name: GitTreeEntryRef
+          items: []
+        - uid: azure-devops-extension-api.GitTreeRef
+          name: GitTreeRef
+          items: []
+        - uid: azure-devops-extension-api.GitUserDate
+          name: GitUserDate
+          items: []
+        - uid: azure-devops-extension-api.GitVersionDescriptor
+          name: GitVersionDescriptor
+          items: []
+        - uid: azure-devops-extension-api.GitVersionOptions
+          name: GitVersionOptions
+          items: []
+        - uid: azure-devops-extension-api.GitVersionType
+          name: GitVersionType
+          items: []
+        - uid: azure-devops-extension-api.GlobalGitRepositoryKey
+          name: GlobalGitRepositoryKey
+          items: []
+        - uid: azure-devops-extension-api.HistoryEntry
+          name: HistoryEntry
+          items: []
+        - uid: azure-devops-extension-api.IdentityRefWithVote
+          name: IdentityRefWithVote
+          items: []
+        - uid: azure-devops-extension-api.ImportRepositoryValidation
+          name: ImportRepositoryValidation
+          items: []
+        - uid: azure-devops-extension-api.IncludedGitCommit
+          name: IncludedGitCommit
+          items: []
+        - uid: azure-devops-extension-api.IsDraftUpdatedEvent
+          name: IsDraftUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.ItemContent
+          name: ItemContent
+          items: []
+        - uid: azure-devops-extension-api.ItemContentType
+          name: ItemContentType
+          items: []
+        - uid: azure-devops-extension-api.ItemDetailsOptions
+          name: ItemDetailsOptions
+          items: []
+        - uid: azure-devops-extension-api.ItemModel
+          name: ItemModel
+          items: []
+        - uid: azure-devops-extension-api.IterationReason
+          name: IterationReason
+          items: []
+        - uid: azure-devops-extension-api.LabelsUpdatedEvent
+          name: LabelsUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.LineDiffBlock
+          name: LineDiffBlock
+          items: []
+        - uid: azure-devops-extension-api.LineDiffBlockChangeType
+          name: LineDiffBlockChangeType
+          items: []
+        - uid: azure-devops-extension-api.MergeCompletedEvent
+          name: MergeCompletedEvent
+          items: []
+        - uid: azure-devops-extension-api.PolicyEvaluationUpdatedEvent
+          name: PolicyEvaluationUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.PullRequestAsyncStatus
+          name: PullRequestAsyncStatus
+          items: []
+        - uid: azure-devops-extension-api.PullRequestCreatedEvent
+          name: PullRequestCreatedEvent
+          items: []
+        - uid: azure-devops-extension-api.PullRequestMergeFailureType
+          name: PullRequestMergeFailureType
+          items: []
+        - uid: azure-devops-extension-api.PullRequestStatus
+          name: PullRequestStatus
+          items: []
+        - uid: azure-devops-extension-api.PullRequestTabExtensionConfig
+          name: PullRequestTabExtensionConfig
+          items: []
+        - uid: azure-devops-extension-api.RealTimePullRequestEvent
+          name: RealTimePullRequestEvent
+          items: []
+        - uid: azure-devops-extension-api.RefFavoriteType
+          name: RefFavoriteType
+          items: []
+        - uid: azure-devops-extension-api.RetargetEvent
+          name: RetargetEvent
+          items: []
+        - uid: azure-devops-extension-api.ReviewersUpdatedEvent
+          name: ReviewersUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.ReviewersVotesResetEvent
+          name: ReviewersVotesResetEvent
+          items: []
+        - uid: azure-devops-extension-api.ReviewerVoteUpdatedEvent
+          name: ReviewerVoteUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.ShareNotificationContext
+          name: ShareNotificationContext
+          items: []
+        - uid: azure-devops-extension-api.SourceToTargetRef
+          name: SourceToTargetRef
+          items: []
+        - uid: azure-devops-extension-api.StatusAddedEvent
+          name: StatusAddedEvent
+          items: []
+        - uid: azure-devops-extension-api.StatusesDeletedEvent
+          name: StatusesDeletedEvent
+          items: []
+        - uid: azure-devops-extension-api.StatusUpdatedEvent
+          name: StatusUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.SupportedIde
+          name: SupportedIde
+          items: []
+        - uid: azure-devops-extension-api.SupportedIdeType
+          name: SupportedIdeType
+          items: []
+        - uid: azure-devops-extension-api.TfvcBranch
+          name: TfvcBranch
+          items: []
+        - uid: azure-devops-extension-api.TfvcBranchMapping
+          name: TfvcBranchMapping
+          items: []
+        - uid: azure-devops-extension-api.TfvcBranchRef
+          name: TfvcBranchRef
+          items: []
+        - uid: azure-devops-extension-api.TfvcChange
+          name: TfvcChange
+          items: []
+        - uid: azure-devops-extension-api.TfvcChangeset
+          name: TfvcChangeset
+          items: []
+        - uid: azure-devops-extension-api.TfvcChangesetRef
+          name: TfvcChangesetRef
+          items: []
+        - uid: azure-devops-extension-api.TfvcChangesetSearchCriteria
+          name: TfvcChangesetSearchCriteria
+          items: []
+        - uid: azure-devops-extension-api.TfvcChangesetsRequestData
+          name: TfvcChangesetsRequestData
+          items: []
+        - uid: azure-devops-extension-api.TfvcCheckinEventData
+          name: TfvcCheckinEventData
+          items: []
+        - uid: azure-devops-extension-api.TfvcHistoryEntry
+          name: TfvcHistoryEntry
+          items: []
+        - uid: azure-devops-extension-api.TfvcItem
+          name: TfvcItem
+          items: []
+        - uid: azure-devops-extension-api.TfvcItemDescriptor
+          name: TfvcItemDescriptor
+          items: []
+        - uid: azure-devops-extension-api.TfvcItemPreviousHash
+          name: TfvcItemPreviousHash
+          items: []
+        - uid: azure-devops-extension-api.TfvcItemRequestData
+          name: TfvcItemRequestData
+          items: []
+        - uid: azure-devops-extension-api.TfvcLabel
+          name: TfvcLabel
+          items: []
+        - uid: azure-devops-extension-api.TfvcLabelRef
+          name: TfvcLabelRef
+          items: []
+        - uid: azure-devops-extension-api.TfvcLabelRequestData
+          name: TfvcLabelRequestData
+          items: []
+        - uid: azure-devops-extension-api.TfvcMappingFilter
+          name: TfvcMappingFilter
+          items: []
+        - uid: azure-devops-extension-api.TfvcMergeSource
+          name: TfvcMergeSource
+          items: []
+        - uid: azure-devops-extension-api.TfvcPolicyFailureInfo
+          name: TfvcPolicyFailureInfo
+          items: []
+        - uid: azure-devops-extension-api.TfvcPolicyOverrideInfo
+          name: TfvcPolicyOverrideInfo
+          items: []
+        - uid: azure-devops-extension-api.TfvcShallowBranchRef
+          name: TfvcShallowBranchRef
+          items: []
+        - uid: azure-devops-extension-api.TfvcShelveset
+          name: TfvcShelveset
+          items: []
+        - uid: azure-devops-extension-api.TfvcShelvesetRef
+          name: TfvcShelvesetRef
+          items: []
+        - uid: azure-devops-extension-api.TfvcShelvesetRequestData
+          name: TfvcShelvesetRequestData
+          items: []
+        - uid: azure-devops-extension-api.TfvcStatistics
+          name: TfvcStatistics
+          items: []
+        - uid: azure-devops-extension-api.TfvcVersionDescriptor
+          name: TfvcVersionDescriptor
+          items: []
+        - uid: azure-devops-extension-api.TfvcVersionOption
+          name: TfvcVersionOption
+          items: []
+        - uid: azure-devops-extension-api.TfvcVersionType
+          name: TfvcVersionType
+          items: []
+        - uid: azure-devops-extension-api.TitleDescriptionUpdatedEvent
+          name: TitleDescriptionUpdatedEvent
+          items: []
+        - uid: azure-devops-extension-api.UpdateRefsRequest
+          name: UpdateRefsRequest
+          items: []
+        - uid: azure-devops-extension-api.VersionControlChangeType
+          name: VersionControlChangeType
+          items: []
+        - uid: azure-devops-extension-api.VersionControlProjectInfo
+          name: VersionControlProjectInfo
+          items: []
+        - uid: azure-devops-extension-api.VersionControlRecursionType
+          name: VersionControlRecursionType
+          items: []
+- name: azure-devops-extension-api
+  uid: azure-devops-extension-api
+  items:
+    - uid: azure-devops-extension-api
+      name: azure-devops-extension-api
+      items:
+        - uid: azure-devops-extension-api.GraphCachePolicies
+          name: GraphCachePolicies
+          items: []
+        - uid: azure-devops-extension-api.GraphDescriptorResult
+          name: GraphDescriptorResult
+          items: []
+        - uid: azure-devops-extension-api.GraphFederatedProviderData
+          name: GraphFederatedProviderData
+          items: []
+        - uid: azure-devops-extension-api.GraphGlobalExtendedPropertyBatch
+          name: GraphGlobalExtendedPropertyBatch
+          items: []
+        - uid: azure-devops-extension-api.GraphGroup
+          name: GraphGroup
+          items: []
+        - uid: azure-devops-extension-api.GraphGroupCreationContext
+          name: GraphGroupCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphGroupMailAddressCreationContext
+          name: GraphGroupMailAddressCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphGroupOriginIdCreationContext
+          name: GraphGroupOriginIdCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphGroupVstsCreationContext
+          name: GraphGroupVstsCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphMember
+          name: GraphMember
+          items: []
+        - uid: azure-devops-extension-api.GraphMemberSearchFactor
+          name: GraphMemberSearchFactor
+          items: []
+        - uid: azure-devops-extension-api.GraphMembership
+          name: GraphMembership
+          items: []
+        - uid: azure-devops-extension-api.GraphMembershipState
+          name: GraphMembershipState
+          items: []
+        - uid: azure-devops-extension-api.GraphMembershipTraversal
+          name: GraphMembershipTraversal
+          items: []
+        - uid: azure-devops-extension-api.GraphProviderInfo
+          name: GraphProviderInfo
+          items: []
+        - uid: azure-devops-extension-api.GraphRestClient
+          name: GraphRestClient
+          items: []
+        - uid: azure-devops-extension-api.GraphScope
+          name: GraphScope
+          items: []
+        - uid: azure-devops-extension-api.GraphScopeCreationContext
+          name: GraphScopeCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphStorageKeyResult
+          name: GraphStorageKeyResult
+          items: []
+        - uid: azure-devops-extension-api.GraphSubject
+          name: GraphSubject
+          items: []
+        - uid: azure-devops-extension-api.GraphSubjectBase
+          name: GraphSubjectBase
+          items: []
+        - uid: azure-devops-extension-api.GraphSubjectLookup
+          name: GraphSubjectLookup
+          items: []
+        - uid: azure-devops-extension-api.GraphSubjectLookupKey
+          name: GraphSubjectLookupKey
+          items: []
+        - uid: azure-devops-extension-api.GraphSystemSubject
+          name: GraphSystemSubject
+          items: []
+        - uid: azure-devops-extension-api.GraphTraversalDirection
+          name: GraphTraversalDirection
+          items: []
+        - uid: azure-devops-extension-api.GraphUser
+          name: GraphUser
+          items: []
+        - uid: azure-devops-extension-api.GraphUserCreationContext
+          name: GraphUserCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphUserMailAddressCreationContext
+          name: GraphUserMailAddressCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphUserOriginIdCreationContext
+          name: GraphUserOriginIdCreationContext
+          items: []
+        - uid: azure-devops-extension-api.GraphUserPrincipalNameCreationContext
+          name: GraphUserPrincipalNameCreationContext
+          items: []
+        - uid: azure-devops-extension-api.IdentityShardingState
+          name: IdentityShardingState
+          items: []
+        - uid: azure-devops-extension-api.PagedGraphGroups
+          name: PagedGraphGroups
+          items: []
+        - uid: azure-devops-extension-api.PagedGraphUsers
+          name: PagedGraphUsers
           items: []
 - uid: azure-devops-extension-sdk
   name: azure-devops-extension-sdk

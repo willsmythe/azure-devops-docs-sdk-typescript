@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-devops-extension-api.GitForkTeamProjectReference
+    name: GitForkTeamProjectReference
+    fullName: GitForkTeamProjectReference
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: TeamProjectReference
+    package: azure-devops-extension-api

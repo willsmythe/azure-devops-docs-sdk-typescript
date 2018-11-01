@@ -4,145 +4,106 @@ items:
     name: azure-devops-extension-api
     summary: ''
     children:
-      - azure-devops-extension-api.RestClientFactory
-      - azure-devops-extension-api.getClient
-      - azure-devops-extension-api.CommonServiceIds
-      - azure-devops-extension-api.MessageBannerLevel
-      - azure-devops-extension-api.PanelSize
-      - azure-devops-extension-api.TeamFoundationHostType
-      - azure-devops-extension-api.ExtensionDataCollection
-      - azure-devops-extension-api.IDialogOptions
-      - azure-devops-extension-api.IDocumentOptions
-      - azure-devops-extension-api.IExtensionDataManager
-      - azure-devops-extension-api.IExtensionDataService
-      - azure-devops-extension-api.IGlobalMessageBanner
-      - azure-devops-extension-api.IGlobalMessageLink
-      - azure-devops-extension-api.IGlobalMessagesService
-      - azure-devops-extension-api.IHostDialogService
-      - azure-devops-extension-api.IHostNavigationService
-      - azure-devops-extension-api.IHostPanelService
-      - azure-devops-extension-api.ILocationService
-      - azure-devops-extension-api.IMessageDialogOptions
-      - azure-devops-extension-api.IPanelOptions
-      - azure-devops-extension-api.IProjectInfo
-      - azure-devops-extension-api.IProjectPageService
-      - azure-devops-extension-api.IAuthorizationTokenProvider
-      - azure-devops-extension-api.IVssRestClientOptions
-      - azure-devops-extension-api.IPostRequestEvent
-      - azure-devops-extension-api.IPreRequestEvent
-      - azure-devops-extension-api.IVssRequestOptions
-      - azure-devops-extension-api.VssServerError
-      - azure-devops-extension-api.issueRequest
-      - azure-devops-extension-api.RestClientBase
-      - azure-devops-extension-api.RestClientRequestParams
-      - azure-devops-extension-api.DayOfWeek
-      - azure-devops-extension-api.SqlDbType
-      - azure-devops-extension-api.deserializeVssJsonObject
-      - azure-devops-extension-api.Uri
-      - azure-devops-extension-api.IParsedRoute
-      - azure-devops-extension-api.IParsedRouteSegment
-      - azure-devops-extension-api.IQueryParameter
-      - azure-devops-extension-api.IRouteMatchResult
-      - azure-devops-extension-api.IUriParseOptions
-      - azure-devops-extension-api.combineUrlPaths
-      - azure-devops-extension-api.getBestRouteMatch
-      - azure-devops-extension-api.parseRouteTemplate
-      - azure-devops-extension-api.replaceParsedRouteValues
-      - azure-devops-extension-api.replaceRouteValues
-      - azure-devops-extension-api.routeUrl
+      - azure-devops-extension-api.GraphMemberSearchFactor
+      - azure-devops-extension-api.GraphTraversalDirection
+      - azure-devops-extension-api.IdentityShardingState
+      - azure-devops-extension-api.GraphCachePolicies
+      - azure-devops-extension-api.GraphDescriptorResult
+      - azure-devops-extension-api.GraphFederatedProviderData
+      - azure-devops-extension-api.GraphGlobalExtendedPropertyBatch
+      - azure-devops-extension-api.GraphGroup
+      - azure-devops-extension-api.GraphGroupCreationContext
+      - azure-devops-extension-api.GraphGroupMailAddressCreationContext
+      - azure-devops-extension-api.GraphGroupOriginIdCreationContext
+      - azure-devops-extension-api.GraphGroupVstsCreationContext
+      - azure-devops-extension-api.GraphMember
+      - azure-devops-extension-api.GraphMembership
+      - azure-devops-extension-api.GraphMembershipState
+      - azure-devops-extension-api.GraphMembershipTraversal
+      - azure-devops-extension-api.GraphProviderInfo
+      - azure-devops-extension-api.GraphScope
+      - azure-devops-extension-api.GraphScopeCreationContext
+      - azure-devops-extension-api.GraphStorageKeyResult
+      - azure-devops-extension-api.GraphSubject
+      - azure-devops-extension-api.GraphSubjectBase
+      - azure-devops-extension-api.GraphSubjectLookup
+      - azure-devops-extension-api.GraphSubjectLookupKey
+      - azure-devops-extension-api.GraphSystemSubject
+      - azure-devops-extension-api.GraphUser
+      - azure-devops-extension-api.GraphUserCreationContext
+      - azure-devops-extension-api.GraphUserMailAddressCreationContext
+      - azure-devops-extension-api.GraphUserOriginIdCreationContext
+      - azure-devops-extension-api.GraphUserPrincipalNameCreationContext
+      - azure-devops-extension-api.PagedGraphGroups
+      - azure-devops-extension-api.PagedGraphUsers
+      - azure-devops-extension-api.GraphRestClient
     type: package
     langs:
       - typeScript
 references:
-  - uid: azure-devops-extension-api.RestClientFactory
-    name: RestClientFactory
-  - uid: azure-devops-extension-api.getClient
-    name: getClient
-  - uid: azure-devops-extension-api.CommonServiceIds
-    name: CommonServiceIds
-  - uid: azure-devops-extension-api.MessageBannerLevel
-    name: MessageBannerLevel
-  - uid: azure-devops-extension-api.PanelSize
-    name: PanelSize
-  - uid: azure-devops-extension-api.TeamFoundationHostType
-    name: TeamFoundationHostType
-  - uid: azure-devops-extension-api.ExtensionDataCollection
-    name: ExtensionDataCollection
-  - uid: azure-devops-extension-api.IDialogOptions
-    name: IDialogOptions
-  - uid: azure-devops-extension-api.IDocumentOptions
-    name: IDocumentOptions
-  - uid: azure-devops-extension-api.IExtensionDataManager
-    name: IExtensionDataManager
-  - uid: azure-devops-extension-api.IExtensionDataService
-    name: IExtensionDataService
-  - uid: azure-devops-extension-api.IGlobalMessageBanner
-    name: IGlobalMessageBanner
-  - uid: azure-devops-extension-api.IGlobalMessageLink
-    name: IGlobalMessageLink
-  - uid: azure-devops-extension-api.IGlobalMessagesService
-    name: IGlobalMessagesService
-  - uid: azure-devops-extension-api.IHostDialogService
-    name: IHostDialogService
-  - uid: azure-devops-extension-api.IHostNavigationService
-    name: IHostNavigationService
-  - uid: azure-devops-extension-api.IHostPanelService
-    name: IHostPanelService
-  - uid: azure-devops-extension-api.ILocationService
-    name: ILocationService
-  - uid: azure-devops-extension-api.IMessageDialogOptions
-    name: IMessageDialogOptions
-  - uid: azure-devops-extension-api.IPanelOptions
-    name: IPanelOptions
-  - uid: azure-devops-extension-api.IProjectInfo
-    name: IProjectInfo
-  - uid: azure-devops-extension-api.IProjectPageService
-    name: IProjectPageService
-  - uid: azure-devops-extension-api.IAuthorizationTokenProvider
-    name: IAuthorizationTokenProvider
-  - uid: azure-devops-extension-api.IVssRestClientOptions
-    name: IVssRestClientOptions
-  - uid: azure-devops-extension-api.IPostRequestEvent
-    name: IPostRequestEvent
-  - uid: azure-devops-extension-api.IPreRequestEvent
-    name: IPreRequestEvent
-  - uid: azure-devops-extension-api.IVssRequestOptions
-    name: IVssRequestOptions
-  - uid: azure-devops-extension-api.VssServerError
-    name: VssServerError
-  - uid: azure-devops-extension-api.issueRequest
-    name: issueRequest
-  - uid: azure-devops-extension-api.RestClientBase
-    name: RestClientBase
-  - uid: azure-devops-extension-api.RestClientRequestParams
-    name: RestClientRequestParams
-  - uid: azure-devops-extension-api.DayOfWeek
-    name: DayOfWeek
-  - uid: azure-devops-extension-api.SqlDbType
-    name: SqlDbType
-  - uid: azure-devops-extension-api.deserializeVssJsonObject
-    name: deserializeVssJsonObject
-  - uid: azure-devops-extension-api.Uri
-    name: Uri
-  - uid: azure-devops-extension-api.IParsedRoute
-    name: IParsedRoute
-  - uid: azure-devops-extension-api.IParsedRouteSegment
-    name: IParsedRouteSegment
-  - uid: azure-devops-extension-api.IQueryParameter
-    name: IQueryParameter
-  - uid: azure-devops-extension-api.IRouteMatchResult
-    name: IRouteMatchResult
-  - uid: azure-devops-extension-api.IUriParseOptions
-    name: IUriParseOptions
-  - uid: azure-devops-extension-api.combineUrlPaths
-    name: combineUrlPaths
-  - uid: azure-devops-extension-api.getBestRouteMatch
-    name: getBestRouteMatch
-  - uid: azure-devops-extension-api.parseRouteTemplate
-    name: parseRouteTemplate
-  - uid: azure-devops-extension-api.replaceParsedRouteValues
-    name: replaceParsedRouteValues
-  - uid: azure-devops-extension-api.replaceRouteValues
-    name: replaceRouteValues
-  - uid: azure-devops-extension-api.routeUrl
-    name: routeUrl
+  - uid: azure-devops-extension-api.GraphMemberSearchFactor
+    name: GraphMemberSearchFactor
+  - uid: azure-devops-extension-api.GraphTraversalDirection
+    name: GraphTraversalDirection
+  - uid: azure-devops-extension-api.IdentityShardingState
+    name: IdentityShardingState
+  - uid: azure-devops-extension-api.GraphCachePolicies
+    name: GraphCachePolicies
+  - uid: azure-devops-extension-api.GraphDescriptorResult
+    name: GraphDescriptorResult
+  - uid: azure-devops-extension-api.GraphFederatedProviderData
+    name: GraphFederatedProviderData
+  - uid: azure-devops-extension-api.GraphGlobalExtendedPropertyBatch
+    name: GraphGlobalExtendedPropertyBatch
+  - uid: azure-devops-extension-api.GraphGroup
+    name: GraphGroup
+  - uid: azure-devops-extension-api.GraphGroupCreationContext
+    name: GraphGroupCreationContext
+  - uid: azure-devops-extension-api.GraphGroupMailAddressCreationContext
+    name: GraphGroupMailAddressCreationContext
+  - uid: azure-devops-extension-api.GraphGroupOriginIdCreationContext
+    name: GraphGroupOriginIdCreationContext
+  - uid: azure-devops-extension-api.GraphGroupVstsCreationContext
+    name: GraphGroupVstsCreationContext
+  - uid: azure-devops-extension-api.GraphMember
+    name: GraphMember
+  - uid: azure-devops-extension-api.GraphMembership
+    name: GraphMembership
+  - uid: azure-devops-extension-api.GraphMembershipState
+    name: GraphMembershipState
+  - uid: azure-devops-extension-api.GraphMembershipTraversal
+    name: GraphMembershipTraversal
+  - uid: azure-devops-extension-api.GraphProviderInfo
+    name: GraphProviderInfo
+  - uid: azure-devops-extension-api.GraphScope
+    name: GraphScope
+  - uid: azure-devops-extension-api.GraphScopeCreationContext
+    name: GraphScopeCreationContext
+  - uid: azure-devops-extension-api.GraphStorageKeyResult
+    name: GraphStorageKeyResult
+  - uid: azure-devops-extension-api.GraphSubject
+    name: GraphSubject
+  - uid: azure-devops-extension-api.GraphSubjectBase
+    name: GraphSubjectBase
+  - uid: azure-devops-extension-api.GraphSubjectLookup
+    name: GraphSubjectLookup
+  - uid: azure-devops-extension-api.GraphSubjectLookupKey
+    name: GraphSubjectLookupKey
+  - uid: azure-devops-extension-api.GraphSystemSubject
+    name: GraphSystemSubject
+  - uid: azure-devops-extension-api.GraphUser
+    name: GraphUser
+  - uid: azure-devops-extension-api.GraphUserCreationContext
+    name: GraphUserCreationContext
+  - uid: azure-devops-extension-api.GraphUserMailAddressCreationContext
+    name: GraphUserMailAddressCreationContext
+  - uid: azure-devops-extension-api.GraphUserOriginIdCreationContext
+    name: GraphUserOriginIdCreationContext
+  - uid: azure-devops-extension-api.GraphUserPrincipalNameCreationContext
+    name: GraphUserPrincipalNameCreationContext
+  - uid: azure-devops-extension-api.PagedGraphGroups
+    name: PagedGraphGroups
+  - uid: azure-devops-extension-api.PagedGraphUsers
+    name: PagedGraphUsers
+  - uid: azure-devops-extension-api.GraphRestClient
+    name: GraphRestClient
